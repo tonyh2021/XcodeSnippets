@@ -2,7 +2,15 @@
 
 懒人必备Code Snippet。推荐使用[ACCodeSnippetRepositoryPlugin](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin)来管理Code Snippet。这里主要还是记录了一些自定义代码片段。
 
+
 ###注意点：
+- 可以使用脚本`build_snippets.sh`：
+
+```
+$ ./build_snippets.sh
+done
+```
+
 - `Completion Shortcut`（自动补全快捷键）是最重要的一项，设置好关键字后就可以在编辑器中输入相应关键字后出现补全提示，否则代码片段只能拖拽到编辑器中使用。`Title`和`Summary`会在补全提示时显示。指定`Language`和`Completion Scopes`可以让代码片段只在特定区域显示补全提示，在你拖拽创建代码片段时，Xcode 会根据你的拖拽区域自动指定它们。
 
 - 代码片段中的占位符可以按`<#占位符提示#>`格式添加。
