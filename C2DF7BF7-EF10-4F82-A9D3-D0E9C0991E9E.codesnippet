@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@time</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 创建
+self.&lt;#var#&gt; = [NSTimer scheduledTimerWithTimeInterval:1.5
+                                                            target:self
+                                              selector:@selector(&lt;#timerMethod#&gt;)
+                                                          userInfo:nil
+                                                           repeats:YES];
+// 取消
+[self.&lt;#var#&gt; invalidate];
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C2DF7BF7-EF10-4F82-A9D3-D0E9C0991E9E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>计时器</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSTimer</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

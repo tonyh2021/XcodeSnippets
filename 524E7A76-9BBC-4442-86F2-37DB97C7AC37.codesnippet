@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@register</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define ReuseIdentifier @"&lt;#id#&gt;"
+
+UINib * nib = [UINib nibWithNibName:@"&lt;#id#&gt;" bundle:nil];
+[self.tableView registerNib:nib forCellReuseIdentifier:ReuseIdentifier];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>524E7A76-9BBC-4442-86F2-37DB97C7AC37</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>注册Nib</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Register Nib</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
