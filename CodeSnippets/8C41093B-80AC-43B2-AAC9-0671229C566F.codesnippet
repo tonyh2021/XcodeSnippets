@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@dealloc</string>
+	<string>@strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)dealloc {
-    NSLog(@"%@ dealloc", [self class]);
-}</string>
+	<string>@strongify(self)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EA75F8BD-2AF2-4F14-90BE-39F071281D13</string>
+	<string>8C41093B-80AC-43B2-AAC9-0671229C566F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>查看销毁</string>
+	<string>Strong Self</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dealloc</string>
+	<string>Strong Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

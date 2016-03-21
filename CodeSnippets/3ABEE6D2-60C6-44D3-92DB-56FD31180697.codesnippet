@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak typeof(self) weakSelf = self;</string>
+	<string>@weakify(self)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3ABEE6D2-60C6-44D3-92DB-56FD31180697</string>
 	<key>IDECodeSnippetLanguage</key>
