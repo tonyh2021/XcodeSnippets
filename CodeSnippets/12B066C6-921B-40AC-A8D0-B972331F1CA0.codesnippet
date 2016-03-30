@@ -3,24 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@const</string>
+	<string>@enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#static#&gt; NSString *const &lt;#constvar#&gt; = @"something";</string>
+	<string>typedef NS_ENUM(NSUInteger, &lt;#NS_ENUM#&gt;Type) {
+    //
+    &lt;#NS_ENUM#&gt;Type&lt;#One#&gt; = 0,
+    //
+    &lt;#NS_ENUM#&gt;Type,
+    //
+    &lt;#NS_ENUM#&gt;Type
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4887956A-C2B4-4295-AC8A-EB33F9B970AB</string>
+	<string>12B066C6-921B-40AC-A8D0-B972331F1CA0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>常量</string>
+	<string>枚举</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Const</string>
+	<string>NS_ENUM</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
