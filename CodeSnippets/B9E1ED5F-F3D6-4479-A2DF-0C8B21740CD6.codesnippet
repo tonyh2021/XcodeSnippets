@@ -30,17 +30,14 @@
     cell.textLabel.text = [NSString stringWithFormat:@"Example%@",@(indexPath.row+1)];
     
     return cell;
-    
-    return cell;
 }
 
 #pragma mark - UITableView Delegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Class cls = NSClassFromString([NSString stringWithFormat:@"Example%@Controller", @(indexPath.row+1)] );
+    Class cls = NSClassFromString([NSString stringWithFormat:@"Example%@ViewController", @(indexPath.row+1)] );
     
-    if ( cls )
-    {
+    if (cls) {
         [self.navigationController pushViewController:[cls new] animated:YES];
     }
 }</string>

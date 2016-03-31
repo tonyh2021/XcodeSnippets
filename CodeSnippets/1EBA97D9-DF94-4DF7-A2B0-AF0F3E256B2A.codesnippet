@@ -10,15 +10,15 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    self.tableview = ({
-        UITableView *tableView = [UITableView new];
-        [self.view addSubview:view];
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        UITableView *tableview = [UITableView new];
+        [self.view addSubview:tableview];
+        [tableview mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(self.view);
         }];
-        view.delegate = self;
-        view.dataSource = self;
+        tableview.delegate = self;
+        tableview.dataSource = self;
         
-        tableView;
+        tableview;
     });</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1EBA97D9-DF94-4DF7-A2B0-AF0F3E256B2A</string>
@@ -31,6 +31,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

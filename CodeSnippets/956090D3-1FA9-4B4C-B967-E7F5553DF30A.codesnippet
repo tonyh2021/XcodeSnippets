@@ -3,19 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@lazy</string>
+	<string>@lazyarray</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
- 懒加载
- */
-- (NSArray *)&lt;#Array#&gt; {
+	<string>- (NSArray *)&lt;#Array#&gt; {
     if (_&lt;#Array#&gt; == nil) {
         //初始化
-        _&lt;#Array#&gt; = [[NSArray alloc] init];
+        _&lt;#Array#&gt; = [NSArray array];
     }
     return _&lt;#Array#&gt;;
 }</string>
