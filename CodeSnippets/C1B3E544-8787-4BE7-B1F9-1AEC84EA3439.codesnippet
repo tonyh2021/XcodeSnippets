@@ -3,31 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@enum</string>
+	<string>@window</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#NS_ENUM#&gt;Type) {
-    //
-    &lt;#NS_ENUM#&gt;Type&lt;#One#&gt; = 0,
-    //
-    &lt;#NS_ENUM#&gt;Type,
-    //
-    &lt;#NS_ENUM#&gt;Type
-};</string>
+	<string>    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    [self.window makeKeyAndVisible];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>12B066C6-921B-40AC-A8D0-B972331F1CA0</string>
+	<string>C1B3E544-8787-4BE7-B1F9-1AEC84EA3439</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>枚举</string>
+	<string>AppDelegate初始化window</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NS_ENUM</string>
+	<string>AppDelegate-didFinishLaunchingWithOptions</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

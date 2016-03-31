@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@tableview</string>
+	<string>@tableviewds</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -20,15 +20,16 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *cellIdentifier = @"Cell";
+    static NSString *cellIdentifier = @"CellIdentifier";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
-    if(cell == nil) {
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"Example%@",@(indexPath.row+1)];
+    
+    return cell;
     
     return cell;
 }
@@ -36,7 +37,12 @@
 #pragma mark - UITableView Delegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    Class cls = NSClassFromString([NSString stringWithFormat:@"Example%@Controller", @(indexPath.row+1)] );
     
+    if ( cls )
+    {
+        [self.navigationController pushViewController:[cls new] animated:YES];
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B9E1ED5F-F3D6-4479-A2DF-0C8B21740CD6</string>
