@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@randomcolor</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#define XTRandomColor [UIColor colorWithRed:(CGFloat)arc4random()/UINT32_MAX\
+green:(CGFloat)arc4random()/UINT32_MAX \
+blue:(CGFloat)arc4random()/UINT32_MAX\
+alpha:1.0];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2518F73-9921-45C6-93AE-D366107BA0FE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>随机颜色宏</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Macro for random color</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
