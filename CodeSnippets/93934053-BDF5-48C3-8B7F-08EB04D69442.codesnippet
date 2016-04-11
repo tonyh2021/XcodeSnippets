@@ -6,13 +6,20 @@
 	<string>@init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self = [super init];
+	<string>- (instancetype)init {
+    self = [super init];
     if (self) {
+        [self initialize];
     }
-    return self;</string>
+    return self;
+}
+
+- (void)initialize {
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>93934053-BDF5-48C3-8B7F-08EB04D69442</string>
 	<key>IDECodeSnippetLanguage</key>

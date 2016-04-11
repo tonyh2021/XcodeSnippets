@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#static#&gt; NSString *const &lt;#constvar#&gt; = @"something";</string>
+	<string>&lt;#static#&gt; CGFloat const &lt;#constvar#&gt; = .f;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4887956A-C2B4-4295-AC8A-EB33F9B970AB</string>
 	<key>IDECodeSnippetLanguage</key>
