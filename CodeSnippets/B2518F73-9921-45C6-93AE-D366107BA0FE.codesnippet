@@ -9,9 +9,9 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define XTRandomColor [UIColor colorWithRed:(CGFloat)arc4random()/UINT32_MAX\
+	<string>#define XTRandomColor [UIColor colorWithRed:(CGFloat)arc4random()/UINT32_MAX \
 green:(CGFloat)arc4random()/UINT32_MAX \
-blue:(CGFloat)arc4random()/UINT32_MAX\
+blue:(CGFloat)arc4random()/UINT32_MAX \
 alpha:1.0];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B2518F73-9921-45C6-93AE-D366107BA0FE</string>
