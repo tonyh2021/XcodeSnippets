@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@test</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)setUpTestCase {
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectZero];
+    button.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(buttonDidClick:) forControlEvents:UIControlEventTouchUpInside];
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.height.width.mas_equalTo(50);
+        make.left.mas_equalTo(100);
+        make.top.mas_equalTo(100);
+    }];
+    
+    UIButton *button2 = [[UIButton alloc] initWithFrame:CGRectZero];
+    button2.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button2];
+    [button2 addTarget:self action:@selector(button2DidClick:) forControlEvents:UIControlEventTouchUpInside];
+    [button2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.height.width.mas_equalTo(50);
+        make.left.mas_equalTo(100);
+        make.top.mas_equalTo(200);
+    }];
+}
+
+- (void)buttonDidClick:(UIButton *)button {
+    
+}
+
+- (void)button2DidClick:(UIButton *)button {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>11218BD4-6907-42E1-9375-BEFFC5C6FE42</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>AddTestButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AddTestButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
