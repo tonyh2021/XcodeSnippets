@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@const</string>
+	<string>@conststring</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const CGFloat &lt;#constvar#&gt; = .f;</string>
+	<string>static const NSString *&lt;#conststring#&gt; = @"";
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4887956A-C2B4-4295-AC8A-EB33F9B970AB</string>
+	<string>A3838025-C263-4791-AC8C-8B2A9239118C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>常量</string>
+	<string>ConstString</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConstFloat</string>
+	<string>ConstString</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
