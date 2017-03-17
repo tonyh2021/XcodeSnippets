@@ -3,33 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@enum</string>
+	<string>@warn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#NS_ENUM#&gt;Type) {
-    //
-    &lt;#NS_ENUM#&gt;Type&lt;#One#&gt; = 0,
-    //
-    &lt;#NS_ENUM#&gt;Type,
-    //
-    &lt;#NS_ENUM#&gt;Type
-};</string>
+	<string>#warning TODO hxt</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>12B066C6-921B-40AC-A8D0-B972331F1CA0</string>
+	<string>7A8681B2-51EB-448D-8CAC-CBA5958F5C2E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>枚举</string>
+	<string>Warning TODO</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NS_ENUM</string>
+	<string>Warning TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
