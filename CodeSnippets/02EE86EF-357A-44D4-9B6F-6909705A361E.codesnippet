@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>/</string>
+	<string>@time</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>**
- * &lt;#注释内容#&gt;
- */</string>
+	<string>NSDate *startTime = [NSDate date];
+&lt;#code#&gt;
+NSLog(@"Time: %f", -[startTime timeIntervalSinceNow]);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3375AFD1-2499-4847-8CFE-0732E2A09372</string>
+	<string>02EE86EF-357A-44D4-9B6F-6909705A361E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Comment</string>
+	<string>执行时间</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Comment</string>
+	<string>Time</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

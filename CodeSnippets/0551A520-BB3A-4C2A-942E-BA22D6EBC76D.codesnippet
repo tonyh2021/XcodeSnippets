@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#warning test hxt</string>
+	<string>warning test hxt</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0551A520-BB3A-4C2A-942E-BA22D6EBC76D</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
