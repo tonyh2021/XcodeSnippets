@@ -9,11 +9,14 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)cellWithTableView:(UITableView *)tableView{
+	<string>+ (instancetype)cellWithTableView:(UITableView *)tableView {
     static NSString *ID = @"&lt;#ID#&gt;";
     &lt;#Cell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (cell == nil) {
         cell = [[&lt;#Cell#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        //或
+        [tableView registerNib:[UINib nibWithNibName:@"MyCustomCell" bundle:nil] forCellReuseIdentifier:@"&lt;#ID#&gt;"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"&lt;#ID#&gt;"];
     }
     return cell;
 }
