@@ -6,7 +6,7 @@
 	<string>@enum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>typedef NS_ENUM(NSUInteger, &lt;#NS_ENUM#&gt;Type) {
@@ -21,6 +21,8 @@
 	<string>12B066C6-921B-40AC-A8D0-B972331F1CA0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>枚举</string>
 	<key>IDECodeSnippetTitle</key>
