@@ -4,6 +4,6 @@ mv ~/Library/Developer/Xcode/UserData/CodeSnippets ~/Library/Developer/Xcode/Use
 # rm ~/Library/Developer/Xcode/UserData/CodeSnippets
 
 SRC_HOME=`pwd`
-ln -s ${SRC_HOME}/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
+ln -s ~/Documents/gworkspace/MyCodeSnippet/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
 echo "done"
 
