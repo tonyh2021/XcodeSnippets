@@ -18,9 +18,11 @@ For objective-c:
 
 Type the tip word and tap `esc` in `.h` or `.m` files.
 
-![oc](./1.gif)
+![xcode-snippets-01](https://raw.githubusercontent.com/lettleprince/XcodeSnippets/master/xcode-snippets-01.gif)
 
 For swift:
 
 Type `swift` and tap `esc` in `swift` files.
+
+![xcode-snippets-02](https://raw.githubusercontent.com/lettleprince/XcodeSnippets/master/xcode-snippets-02.gif)
 
