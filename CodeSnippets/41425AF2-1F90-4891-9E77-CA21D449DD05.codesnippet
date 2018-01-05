@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@pb</string>
+	<string>property block</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>property (nonatomic, copy) void (^&lt;#block name#&gt;)(void);</string>
+	<string>@property (nonatomic, copy) void (^&lt;#block name#&gt;)(void);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>41425AF2-1F90-4891-9E77-CA21D449DD05</string>
 	<key>IDECodeSnippetLanguage</key>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@warn</string>
+	<string>warn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>warning test hxt</string>
+	<string># warning test hxt</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0551A520-BB3A-4C2A-942E-BA22D6EBC76D</string>
 	<key>IDECodeSnippetLanguage</key>
