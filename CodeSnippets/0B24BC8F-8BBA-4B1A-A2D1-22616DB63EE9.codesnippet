@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-var</string>
+	<string>swift updateViewConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public var &lt;#property#&gt;: &lt;#type#&gt;</string>
+	<string>    override func updateViewConstraints() {
+        super.updateViewConstraints()
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>98F3CA32-0637-49C0-92A3-0585CC0CE523</string>
+	<string>0B24BC8F-8BBA-4B1A-A2D1-22616DB63EE9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift public var</string>
+	<string>swift updateViewConstraints</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift public var</string>
+	<string>swift updateViewConstraints</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

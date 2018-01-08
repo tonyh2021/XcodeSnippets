@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-var</string>
+	<string>swift warning</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public var &lt;#property#&gt;: &lt;#type#&gt;</string>
+	<string>// MARK: WARNING &lt;#WARNING#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>98F3CA32-0637-49C0-92A3-0585CC0CE523</string>
+	<string>2B7CA40B-127C-4451-9250-55CF8E4F4F42</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift public var</string>
+	<string>swift warning</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift public var</string>
+	<string>swift warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

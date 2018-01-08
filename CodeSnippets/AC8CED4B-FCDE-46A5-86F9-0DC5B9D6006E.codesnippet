@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-var</string>
+	<string>swift viewWillDisappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public var &lt;#property#&gt;: &lt;#type#&gt;</string>
+	<string>    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>98F3CA32-0637-49C0-92A3-0585CC0CE523</string>
+	<string>AC8CED4B-FCDE-46A5-86F9-0DC5B9D6006E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift public var</string>
+	<string>swift viewWillDisappear</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift public var</string>
+	<string>swift viewWillDisappear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

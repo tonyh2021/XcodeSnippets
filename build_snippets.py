@@ -24,10 +24,15 @@ CMD = 'ln -s %s %s' % (
 
 
 def build_snippets():
-    if os.path.exists(XCODE_SNIPPETS_DIR)\
-         and os.path.isdir(XCODE_SNIPPETS_DIR):
+    if os.path.islink(XCODE_SNIPPETS_DIR):  # 如果之前创建了软连接，要先删除
+        print('Remove link : %s' % XCODE_SNIPPETS_DIR)
+        os.remove(XCODE_SNIPPETS_DIR)
+    elif os.path.exists(XCODE_SNIPPETS_DIR):  # 如果之前未操作过，，要先重命名备份
+        print('Rename %s to %s' % XCODE_SNIPPETS_DIR, BACKUP_DIR)
         os.rename(XCODE_SNIPPETS_DIR, BACKUP_DIR)
+    print('Create link : %s' % CMD)  
     os.system(CMD)
+    print('Done')  
 
 
 def main():

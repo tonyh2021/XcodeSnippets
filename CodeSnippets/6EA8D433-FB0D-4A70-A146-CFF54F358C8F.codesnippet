@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift tableView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // MARK: UITableViewDataSource
+    
+    func numberOfSections(in tableView: UITableView) -&gt; Int {
+        return &lt;#numberOfSections#&gt;
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return &lt;#numberOfRowsInSection#&gt;
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+        let cellIdentifier = "CellIdentifier"
+        
+        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
+        if cell == nil {
+            cell = UITableViewCell(style: .default, reuseIdentifier: cellIdentifier)
+        }
+        cell!.textLabel?.text = "Example\(indexPath.row+1)"
+        return cell!
+    }
+
+    // MARK: UITableViewDelegate
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let className: String = "Example\(indexPath.row+1)ViewController"
+        
+        if let cls = NSClassFromString(className) as? UIViewController.Type {
+            navigationController?.pushViewController(cls.init(), animated: true)
+        }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6EA8D433-FB0D-4A70-A146-CFF54F358C8F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift tableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift tableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
