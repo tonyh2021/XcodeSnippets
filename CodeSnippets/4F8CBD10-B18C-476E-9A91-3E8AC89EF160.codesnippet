@@ -3,37 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>network</string>
+	<string>swift-didSet</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Network Request Delegate
-
-- (void)requestFinished:(BaseRequest *)request {
-
-}
-
-- (void)requestFailed:(BaseRequest *)request {
-
-}
-
-- (void)clearRequest {
-
-}
-</string>
+	<string>    public var &lt;#name#&gt;: &lt;#Type#&gt; {
+        didSet {
+            &lt;#code#&gt;
+        }
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F2945E28-8E0F-4E27-8840-F40C4E7E7E5D</string>
+	<string>4F8CBD10-B18C-476E-9A91-3E8AC89EF160</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Network Request Delegate</string>
+	<string>swift-didSet</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Network Request Delegate</string>
+	<string>swift-didSet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

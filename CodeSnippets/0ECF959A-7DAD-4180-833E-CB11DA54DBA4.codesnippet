@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift guard let</string>
+	<string>swift-guard-let</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    guard let &lt;#value#&gt; = &lt;#value#&gt; else {
-        return
-    }</string>
+	<string>    guard let &lt;#constant#&gt; = &lt;#expression#&gt; else { return &lt;#return value#&gt; }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0ECF959A-7DAD-4180-833E-CB11DA54DBA4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift guard let</string>
+	<string>swift-guard-let</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift guard let</string>
+	<string>swift-guard-let</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

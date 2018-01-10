@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-if-let</string>
+	<string>swift-notifi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if let &lt;#constant name#&gt; = &lt;#optional#&gt; {
-        &lt;#statements#&gt;
+	<string>    NotificationCenter.default.addObserver(self, selector: #selector(&lt;#funcName#&gt;(_:)), name: NSNotification.Name.&lt;#name#&gt;, object: nil)
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B891335-73D6-4F91-B58C-A829F80BA1A2</string>
+	<string>E5EB2F9F-CB66-45F5-9C8F-A535554A21D4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-if-let</string>
+	<string>swift-notifi</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-if-let</string>
+	<string>swift-notifi</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-if-let</string>
+	<string>swift-dispatch-global-main</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if let &lt;#constant name#&gt; = &lt;#optional#&gt; {
-        &lt;#statements#&gt;
-    }</string>
+	<string>        DispatchQueue.global().async {
+            DispatchQueue.main.async {
+                // Run async code on the main queue
+            }
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B891335-73D6-4F91-B58C-A829F80BA1A2</string>
+	<string>A6DC33B5-6402-4049-8A46-8921865F2CEC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-if-let</string>
+	<string>swift-dispatch-global-main</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-if-let</string>
+	<string>swift-dispatch-global-main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-if-let</string>
+	<string>swift-class</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if let &lt;#constant name#&gt; = &lt;#optional#&gt; {
-        &lt;#statements#&gt;
-    }</string>
+	<string>class &lt;#name#&gt;: &lt;#super class#&gt; {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B891335-73D6-4F91-B58C-A829F80BA1A2</string>
+	<string>A019B4FC-6710-4BA6-84B3-5511E681CC04</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-if-let</string>
+	<string>swift-class</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-if-let</string>
+	<string>swift-class</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-if-let</string>
+	<string>swift-convenience</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if let &lt;#constant name#&gt; = &lt;#optional#&gt; {
-        &lt;#statements#&gt;
+	<string>    convenience init(&lt;#params#&gt;) {
+        self.init(&lt;#params#&gt;)
+        didInitialized()
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B891335-73D6-4F91-B58C-A829F80BA1A2</string>
+	<string>C471203D-9650-4261-B23E-E50B640630AA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-if-let</string>
+	<string>swift-convenience</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-if-let</string>
+	<string>swift-convenience</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

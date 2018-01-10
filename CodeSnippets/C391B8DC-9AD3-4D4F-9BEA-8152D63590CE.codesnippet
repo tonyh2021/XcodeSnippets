@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-if-let</string>
+	<string>siwft-func-closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    if let &lt;#constant name#&gt; = &lt;#optional#&gt; {
-        &lt;#statements#&gt;
+	<string>    public func &lt;#funcName#&gt;(
+        &lt;#name#&gt;: &lt;#Type#&gt;?,
+        &lt;#closureName#&gt;: @escaping (&lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;) {
+        &lt;#code#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B891335-73D6-4F91-B58C-A829F80BA1A2</string>
+	<string>C391B8DC-9AD3-4D4F-9BEA-8152D63590CE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-if-let</string>
+	<string>siwft-func-closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-if-let</string>
+	<string>siwft-func-closure</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
