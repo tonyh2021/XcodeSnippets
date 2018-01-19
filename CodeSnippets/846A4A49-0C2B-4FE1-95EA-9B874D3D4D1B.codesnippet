@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swift-onceToken</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#extension#&gt;: SelfAware {
+    private static let _onceToken = UUID().uuidString
+    
+    static func awake() {
+        DispatchQueue.once(token: _onceToken) {
+            &lt;#funcName#&gt;()
+        }
+    }
+    
+    static func &lt;#funcName#&gt;() {
+        &lt;#code#&gt;
+    }
+}
+
+protocol SelfAware: class {
+    static func awake()
+}
+
+class NothingToSeeHere {
+    
+    static func harmlessFunction() {
+        let typeCount = Int(objc_getClassList(nil, 0))
+        let types = UnsafeMutablePointer&lt;AnyClass?&gt;.allocate(capacity: typeCount)
+        let autoreleasingTypes = AutoreleasingUnsafeMutablePointer&lt;AnyClass&gt;(types)
+        objc_getClassList(autoreleasingTypes, Int32(typeCount))
+        for index in 0 ..&lt; typeCount { (types[index] as? SelfAware.Type)?.awake() }
+        types.deallocate(capacity: typeCount)
+    }
+}
+
+extension UIApplication {
+    
+    private static let runOnce: Void = {
+        NothingToSeeHere.harmlessFunction()
+    }()
+    
+    open override var next: UIResponder? {
+        // Called before applicationDidFinishLaunching
+        UIApplication.runOnce
+        return super.next
+    }
+}
+
+extension DispatchQueue {
+    
+    private static var _onceTracker = [String]()
+    
+    public class func once(token: String, block: () -&gt; Void) {
+        objc_sync_enter(self); defer { objc_sync_exit(self) }
+        
+        if _onceTracker.contains(token) {
+            return
+        }
+        
+        _onceTracker.append(token)
+        block()
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>846A4A49-0C2B-4FE1-95EA-9B874D3D4D1B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swift-onceToken</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swift-onceToken</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

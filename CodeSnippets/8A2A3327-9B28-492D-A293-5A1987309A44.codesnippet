@@ -3,24 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-convenience</string>
+	<string>swift-associated-var</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    convenience init(&lt;#params#&gt;) {
-        self.init(&lt;#params#&gt;)
-        didInitialized()
+	<string>    private struct AssociatedKeys {
+        static var k&lt;#AssociatedKey#&gt; = "&lt;#AssociatedKey#&gt;"
+    }
+    
+    public var _&lt;#Associated#&gt;: &lt;#Type#&gt; {
+        get {
+            return objc_getAssociatedObject(self, &amp;AssociatedKeys.&lt;#AssociatedKey#&gt;) as? &lt;#Type#&gt;
+        }
+        set {
+            objc_setAssociatedObject(self, &amp;AssociatedKeys.&lt;#AssociatedKey#&gt;, newValue, .OBJC_ASSOCIATION_&lt;#Type#&gt;)
+        }
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C471203D-9650-4261-B23E-E50B640630AA</string>
+	<string>8A2A3327-9B28-492D-A293-5A1987309A44</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-convenience</string>
+	<string>swift-associated-var</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-convenience</string>
+	<string>swift-associated-var</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

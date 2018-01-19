@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatch-after-main</string>
+	<string>swift-closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#second#&gt;) {
-            // your code here
-        }</string>
+	<string>{ (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
+        &lt;#statements#&gt;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6008ED1C-CE2E-4D57-9999-8E3A946EF49D</string>
+	<string>2D3CCDF0-A617-4F5D-B701-7B8ACE0B785C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-dispatch-after-main</string>
+	<string>swift-closure</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-dispatch-after-main</string>
+	<string>swift-closure</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
