@@ -9,7 +9,7 @@
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const NSString *&lt;#conststring#&gt; = @"";
+	<string>static NSString const *&lt;#conststring#&gt; = @"";
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A3838025-C263-4791-AC8C-8B2A9239118C</string>

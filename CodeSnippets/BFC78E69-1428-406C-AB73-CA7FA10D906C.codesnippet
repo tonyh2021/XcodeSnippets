@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.post(name: NSNotification.Name.&lt;#name#&gt;, object: &lt;#object#&gt;)</string>
+	<string>NotificationCenter.default.post(name: Notification.Name.&lt;#name#&gt;, object: &lt;#object#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BFC78E69-1428-406C-AB73-CA7FA10D906C</string>
 	<key>IDECodeSnippetLanguage</key>

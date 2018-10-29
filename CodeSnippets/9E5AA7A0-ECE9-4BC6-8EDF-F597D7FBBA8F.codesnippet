@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-protocol</string>
+	<string>swift-cgfloat-min</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#name#&gt; {
-    &lt;#requirements#&gt;
-}
-
-@objc protocol &lt;#name#&gt; {
-    @objc optional &lt;#requirements#&gt;
-}</string>
+	<string>CGFloat.leastNormalMagnitude</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E91C4529-D216-417C-BB05-B69D3D363079</string>
+	<string>9E5AA7A0-ECE9-4BC6-8EDF-F597D7FBBA8F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-protocol</string>
+	<string>swift-cgfloat-min</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-protocol</string>
+	<string>swift-cgfloat-min</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

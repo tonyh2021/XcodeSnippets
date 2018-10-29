@@ -9,14 +9,14 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_queue_t my_queue = dispatch_queue_create("com.xxx.my_queue", NULL);
+	<string>dispatch_queue_t my_queue = dispatch_queue_create("com.xxx.my_queue", NULL);
     
     dispatch_async(urls_queue, ^{
          //[self doSomething];
         dispatch_async(dispatch_get_main_queue(), ^{
             //[self doSomething];
-        });
-    });</string>
+        })
+        });</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1C071233-5D65-4101-9C7C-A43509BB57B8</string>
 	<key>IDECodeSnippetLanguage</key>

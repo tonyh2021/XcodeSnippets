@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NotificationCenter.default.addObserver(self, selector: #selector(&lt;#funcName#&gt;(_:)), name: NSNotification.Name.&lt;#name#&gt;, object: nil)
+	<string>    NotificationCenter.default.addObserver(self, selector: #selector(&lt;#funcName#&gt;(_:)), name: Notification.Name.&lt;#name#&gt;, object: nil)
     
     deinit {
         NotificationCenter.default.removeObserver(self)

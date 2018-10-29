@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-protocol</string>
+	<string>swift-attributes</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#name#&gt; {
-    &lt;#requirements#&gt;
-}
-
-@objc protocol &lt;#name#&gt; {
-    @objc optional &lt;#requirements#&gt;
-}</string>
+	<string>let attributes: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font : &lt;#attribute#&gt;, NSAttributedStringKey.foregroundColor: &lt;#attribute#&gt;, NSAttributedStringKey.paragraphStyle: &lt;#attribute#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E91C4529-D216-417C-BB05-B69D3D363079</string>
+	<string>090E2EB4-9B6A-41BF-821C-9FDE74C4DB90</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-protocol</string>
+	<string>swift-attributes</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-protocol</string>
+	<string>swift-attributes</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-protocol</string>
+	<string>comment</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#name#&gt; {
-    &lt;#requirements#&gt;
-}
-
-@objc protocol &lt;#name#&gt; {
-    @objc optional &lt;#requirements#&gt;
-}</string>
+	<string> /**&lt; &lt;##&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E91C4529-D216-417C-BB05-B69D3D363079</string>
+	<string>DEE29B6E-53DC-4A04-B774-C71D668F2C95</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-protocol</string>
+	<string>comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-protocol</string>
+	<string>comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

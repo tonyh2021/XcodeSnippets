@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-protocol</string>
+	<string>swift-edgeinsets</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>protocol &lt;#name#&gt; {
-    &lt;#requirements#&gt;
-}
-
-@objc protocol &lt;#name#&gt; {
-    @objc optional &lt;#requirements#&gt;
-}</string>
+	<string>UIEdgeInsets(top: &lt;#T##CGFloat#&gt;, left: &lt;#T##CGFloat#&gt;, bottom: &lt;#T##CGFloat#&gt;, right: &lt;#T##CGFloat#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E91C4529-D216-417C-BB05-B69D3D363079</string>
+	<string>E02D7CFB-7F28-44DD-AADB-E124808644D4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-protocol</string>
+	<string>swift-edgeinsets</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-protocol</string>
+	<string>swift-edgeinsets</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

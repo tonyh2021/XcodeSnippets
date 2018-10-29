@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             &lt;#code to be executed after a specified delay#&gt;
-        });</string>
+            });</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0C8022A9-8605-4391-A07D-238A0522611B</string>
 	<key>IDECodeSnippetLanguage</key>

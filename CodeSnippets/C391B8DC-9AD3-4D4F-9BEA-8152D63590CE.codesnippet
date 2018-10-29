@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    public func &lt;#funcName#&gt;(
+	<string>    func &lt;#funcName#&gt;(
         &lt;#name#&gt;: &lt;#Type#&gt;?,
         &lt;#closureName#&gt;: @escaping (&lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;) {
         &lt;#code#&gt;
