@@ -3,31 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tableview</string>
+	<string>warning</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    self.tableview = ({
-        UITableView *tableview = [UITableView new];
-        [self.view addSubview:tableview];
-        [tableview mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.equalTo(self.view);
-        }];
-        tableview.delegate = self;
-        tableview.dataSource = self;
-        
-        tableview;
-    });</string>
+	<string># warning discussion TonyHan</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1EBA97D9-DF94-4DF7-A2B0-AF0F3E256B2A</string>
+	<string>72694AB8-BD67-4BB2-9892-6376F2B1C66D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>初始化tableView</string>
+	<string>Warning for discussion</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Init UITableView</string>
+	<string>Warning for discussion</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,24 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>conststring</string>
+	<string>frame</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extern NSString *const &lt;#conststring#&gt;;
-NSString *const &lt;#conststring#&gt; = @"&lt;#string#&gt;";</string>
+	<string>- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initialize];
+    }
+    return self;
+}
+
+- (void)initialize {
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3838025-C263-4791-AC8C-8B2A9239118C</string>
+	<string>636B00BF-748A-4DB7-9320-C3331E32E2F4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ConstString</string>
+	<string>initWithFrame</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConstString</string>
+	<string>initWithFrame</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

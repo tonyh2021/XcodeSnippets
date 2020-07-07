@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)dealloc {
-    NSLog(@"%@ dealloc", [self class]);
+    NSLog(@"%@ - %@ dealloc", self, self.className);
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EA75F8BD-2AF2-4F14-90BE-39F071281D13</string>

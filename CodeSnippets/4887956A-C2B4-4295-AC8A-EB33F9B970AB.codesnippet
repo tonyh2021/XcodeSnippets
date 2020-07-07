@@ -9,11 +9,14 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static const CGFloat &lt;#constvar#&gt; = .f;</string>
+	<string>extern const CGFloat &lt;#constvar#&gt;;
+const CGFloat &lt;#constvar#&gt; = &lt;#CGFloat#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4887956A-C2B4-4295-AC8A-EB33F9B970AB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>常量</string>
 	<key>IDECodeSnippetTitle</key>

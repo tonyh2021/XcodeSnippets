@@ -3,24 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>conststring</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>extern NSString *const &lt;#conststring#&gt;;
-NSString *const &lt;#conststring#&gt; = @"&lt;#string#&gt;";</string>
+	<string>SCTeacherContentsButtonClicked</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3838025-C263-4791-AC8C-8B2A9239118C</string>
+	<string>70F01757-DB55-496E-922C-7CD9C2F790CD</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>ConstString</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ConstString</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

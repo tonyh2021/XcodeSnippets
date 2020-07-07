@@ -20,16 +20,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *cellIdentifier = @"CellIdentifier";
-    
-    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-    }
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:UITableViewCell.className forIndexPath:indexPath];
     
     cell.textLabel.text = [NSString stringWithFormat:@"Example%@",@(indexPath.row+1)];
-    
-    return cell;
 }
 
 #pragma mark - UITableView Delegate methods
@@ -40,11 +33,32 @@
     if (cls) {
         [self.navigationController pushViewController:[cls new] animated:YES];
     }
+}
+
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        tableView.backgroundColor = self.view.backgroundColor;
+        tableView.dataSource = self;
+        tableView.delegate = self;
+        tableView.emptyViewDataSource = self;
+        tableView.emptyViewDelegate = self;
+        tableView.estimatedRowHeight = 0;
+        tableView.estimatedSectionHeaderHeight = 0;
+        tableView.estimatedSectionFooterHeight = 0;
+        [tableView registerClass:UITableViewCell.class forCellReuseIdentifier:UITableViewCell.className];
+        _tableView = tableView;
+    }
+    return _tableView;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B9E1ED5F-F3D6-4479-A2DF-0C8B21740CD6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
 	<string>UITableView - Delegate - Datasource</string>
 	<key>IDECodeSnippetUserSnippet</key>
