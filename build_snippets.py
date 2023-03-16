@@ -7,27 +7,27 @@ import time
 
 HOME_DIR = os.environ['HOME']
 
-# Xcode 存放代码块的目录
+# Directory of snippets for Xcode
 XCODE_SNIPPETS_DIR = os.path.join(
     HOME_DIR, 'Library/Developer/Xcode/UserData/CodeSnippets')
 
-# 备份目录
+# Backup Directory
 date_string = time.strftime("%Y_%m_%d", time.localtime())
 BACKUP_DIR = '%s.backup_%s' % (XCODE_SNIPPETS_DIR, date_string)
 
-# 个人的代码块目录
+# Directory of our own snippets
 USER_XCODE_SNIPPETS_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# 软连接命令
+# link command
 CMD = 'ln -s %s %s' % (
     os.path.join(USER_XCODE_SNIPPETS_DIR, 'CodeSnippets'), XCODE_SNIPPETS_DIR)
 
 
 def build_snippets():
-    if os.path.islink(XCODE_SNIPPETS_DIR):  # 如果之前创建了软连接，要先删除
+    if os.path.islink(XCODE_SNIPPETS_DIR):  # remove if existing
         print('Remove link : %s' % XCODE_SNIPPETS_DIR)
         os.remove(XCODE_SNIPPETS_DIR)
-    elif os.path.exists(XCODE_SNIPPETS_DIR):  # 如果之前未操作过，，要先重命名备份
+    elif os.path.exists(XCODE_SNIPPETS_DIR):  # rename and backup
         print('Rename %s to %s' % XCODE_SNIPPETS_DIR, BACKUP_DIR)
         os.rename(XCODE_SNIPPETS_DIR, BACKUP_DIR)
     print('Create link : %s' % CMD)  
