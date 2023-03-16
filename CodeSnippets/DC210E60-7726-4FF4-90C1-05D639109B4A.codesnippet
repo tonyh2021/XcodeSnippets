@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    func &lt;#name#&gt;(_ &lt;#name#&gt;: &lt;#Type#&gt;, &lt;#name#&gt;: &lt;#Type#&gt;) -&gt; &lt;#return type#&gt; {
+	<string>    func &lt;#name#&gt;(&lt;#name#&gt;: &lt;#Type#&gt;) -&gt; &lt;#return type#&gt; {
     &lt;#function body#&gt;
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

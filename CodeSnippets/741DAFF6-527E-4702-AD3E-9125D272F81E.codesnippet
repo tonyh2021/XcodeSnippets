@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    static let sharedInstance: &lt;#Class#&gt; = {
+	<string>    static let instance: &lt;#Class#&gt; = {
         let instance = &lt;#Class#&gt;()
         &lt;#code#&gt;
         return instance

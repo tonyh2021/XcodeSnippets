@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    deinit {
-        &lt;#statements#&gt;
+        print("deinit - \(self)")
     }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EE8689B6-F0E6-43A7-9AEF-E86D924BCE03</string>
