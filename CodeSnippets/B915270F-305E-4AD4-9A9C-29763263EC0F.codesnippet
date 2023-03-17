@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-enum</string>
+	<string>publish</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    enum &lt;#name#&gt; {
-        case &lt;#case#&gt;
-    }</string>
+	<string>@Published var &lt;#name#&gt;: &lt;#Type#&gt; = &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D92B26-664C-4F34-B749-6EA8AEA64434</string>
+	<string>B915270F-305E-4AD4-9A9C-29763263EC0F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-enum</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-enum</string>
+	<string>@Publish</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
