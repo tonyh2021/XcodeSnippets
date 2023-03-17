@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>buttontap</string>
+	<string>structview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>Button {
-    print("tapped...")
-    &lt;#action#&gt;
-} label: {
-    Text("Tap me...")
+	<string>struct &lt;#name#&gt;View: View {
+    var body: some View {
+        Text("View")
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A3D94EE7-156A-4E8C-8C42-5C08C2A82B11</string>
+	<string>6B75566C-5C60-4A5F-BF21-E5B57BE2E125</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>SwiftUI-Button</string>
+	<string>View struct</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
