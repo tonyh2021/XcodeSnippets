@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatch-queue-qos</string>
+	<string>dispatchqueueqos</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        DispatchQueue(label: "&lt;#com.name.queue#&gt;", qos: .utility)</string>
+	<string>DispatchQueue(label: "&lt;#com.name.queue#&gt;", qos: .utility)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>404A005A-8986-474A-91C7-FC682D07D589</string>
 	<key>IDECodeSnippetLanguage</key>

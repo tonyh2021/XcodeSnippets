@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatch-global-main</string>
+	<string>dispatchglobalmain</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        DispatchQueue.global().async {
-            DispatchQueue.main.async {
-                // Run async code on the main queue
-            }
-        }</string>
+	<string>DispatchQueue.global().async {
+    DispatchQueue.main.async {
+        &lt;#Run async code on the main queue#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A6DC33B5-6402-4049-8A46-8921865F2CEC</string>
 	<key>IDECodeSnippetLanguage</key>

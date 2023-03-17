@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatch-main-async</string>
+	<string>dispatchmainasync</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        DispatchQueue.main.async {
-            // Run async code on the main queue
-        }</string>
+	<string>DispatchQueue.main.async {
+    &lt;#Run async code on the main queue#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3C9CFB3B-155F-4D86-9ED3-B4ED3580048D</string>
 	<key>IDECodeSnippetLanguage</key>

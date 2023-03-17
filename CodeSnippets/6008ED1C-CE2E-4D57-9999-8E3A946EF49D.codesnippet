@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatch-after-main</string>
+	<string>dispatchafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#second#&gt;) {
-            // your code here
-        }</string>
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#second#&gt;) {
+    &lt;#Code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6008ED1C-CE2E-4D57-9999-8E3A946EF49D</string>
 	<key>IDECodeSnippetLanguage</key>
