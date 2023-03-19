@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>forin</string>
+	<string>forindex</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ForEach(&lt;#List#&gt;, id: \.self) { &lt;#item#&gt; in
-    &lt;#item#&gt;
+	<string>for index in 0..&lt;&lt;#Max#&gt; {
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5B69BD4C-59CB-4741-90C8-36E08F976FC4</string>
+	<string>455D082A-AF83-448C-947F-6D1E2D8A9F4D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ForEach</string>
+	<string>forin</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

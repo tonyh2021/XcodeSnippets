@@ -3,26 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>forin</string>
+	<string>stateobject</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ForEach(&lt;#List#&gt;, id: \.self) { &lt;#item#&gt; in
-    &lt;#item#&gt;
+	<string>@StateObject private var vm = &lt;#Type#&gt;()
+
+class &lt;#Type#&gt;: ObservableObject {
+    
+    init() {
+        
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5B69BD4C-59CB-4741-90C8-36E08F976FC4</string>
+	<string>C21BB358-16CD-453B-9BDA-AE274DD00D79</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ForEach</string>
+	<string>StateObject</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
