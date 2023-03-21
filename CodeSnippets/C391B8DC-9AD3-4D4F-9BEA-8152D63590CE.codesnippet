@@ -3,17 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-func-closure</string>
+	<string>closurefunc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    func &lt;#funcName#&gt;(
-        &lt;#name#&gt;: &lt;#Type#&gt;?,
-        &lt;#closureName#&gt;: @escaping (&lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;) {
-        &lt;#code#&gt;
-    }</string>
+	<string>func &lt;#funcName#&gt;(&lt;#name#&gt;: &lt;#Type#&gt;?, &lt;#closureName#&gt;: @escaping (&lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;) {
+    &lt;#code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C391B8DC-9AD3-4D4F-9BEA-8152D63590CE</string>
 	<key>IDECodeSnippetLanguage</key>

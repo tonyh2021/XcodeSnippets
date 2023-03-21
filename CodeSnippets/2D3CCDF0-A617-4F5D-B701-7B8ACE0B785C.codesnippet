@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-closure</string>
+	<string>closure</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>{ (&lt;#parameters#&gt;) -&gt; &lt;#return type#&gt; in
-        &lt;#statements#&gt;
-    }</string>
+    &lt;#statements#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>2D3CCDF0-A617-4F5D-B701-7B8ACE0B785C</string>
 	<key>IDECodeSnippetLanguage</key>

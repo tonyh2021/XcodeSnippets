@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-closure-var</string>
+	<string>closurevar</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#closureName#&gt;: ((_ &lt;#param#&gt;: &lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;)?</string>
+	<string>var &lt;#closureName#&gt;: ((_ &lt;#param#&gt;: &lt;#Type#&gt;) -&gt;  &lt;#ReturnType#&gt;)?</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EB536106-E908-49A0-A817-32B19E2972BB</string>
 	<key>IDECodeSnippetLanguage</key>

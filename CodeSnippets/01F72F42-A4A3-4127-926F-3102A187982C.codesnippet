@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-closure-typealias</string>
+	<string>closuretypealias</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    typealias &lt;#ClosureType#&gt; = (&lt;#param#&gt;: &lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;
+	<string>typealias &lt;#ClosureType#&gt; = (&lt;#param#&gt;: &lt;#Type#&gt;) -&gt; &lt;#ReturnType#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>01F72F42-A4A3-4127-926F-3102A187982C</string>
