@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>disqueueqos</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue(label: "&lt;#com.name.queue#&gt;", qos: .utility)</string>
+	<string>[weak self] in
+    guard let self = self else { return }
+    &lt;#Code#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>404A005A-8986-474A-91C7-FC682D07D589</string>
+	<string>84869FDD-3242-42DB-AA45-15F18909705D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-dispatch-queue-qos</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-dispatch-queue-qos</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
