@@ -3,29 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>asyncthrows</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>static let instance: &lt;#Class#&gt; = {
-    let instance = &lt;#Class#&gt;()
-    &lt;#code#&gt;
-    return instance
-} ()
-
-private init() {
-    
+	<string>func &lt;#func#&gt;(&lt;#para#&gt;: &lt;#Type#&gt;) async throws -&gt; &lt;#Return#&gt; {
+    do {
+        try await
+        return &lt;#data#&gt;
+    } catch let error {
+        throw error
+    }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>741DAFF6-527E-4702-AD3E-9125D272F81E</string>
+	<string>34FF4088-B01F-4310-AC5C-B6515230727A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>swift-shared-instance</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>swift-shared-instance</string>
+	<string>async throws</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
