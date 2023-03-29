@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewrepresentable</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct UI&lt;#View#&gt;ViewRepresentable: UIViewRepresentable {
+    
+    @Binding var &lt;#value#&gt;: &lt;#Type#&gt;
+    
+    init(&lt;#value#&gt;: Binding&lt;&lt;#Type#&gt;&gt;) {
+        self._&lt;#value#&gt; = &lt;#value#&gt;
+    }
+    
+    func makeUIView(context: Context) -&gt; UI&lt;#View#&gt; {
+        let view = UIView()
+        return view
+    }
+    
+    // SwiftUI -&gt; UIKit
+    func updateUIView(_ uiView: UI&lt;#View#&gt;, context: Context) {
+        &lt;#updateUIView#&gt;
+    }
+    
+    // UIKit -&gt; SwiftUI
+    func makeCoordinator() -&gt; Coordinator {
+        return Coordinator(&lt;#value#&gt;: $&lt;#value#&gt;)
+    }
+    
+    class Coordinator: NSObject, &lt;#Delegate#&gt; {
+        
+        @Binding var &lt;#value#&gt;: &lt;#Type#&gt;
+        
+        init(&lt;#value#&gt;: Binding&lt;&lt;#Type#&gt;&gt;) {
+            self._&lt;#value#&gt; = &lt;#value#&gt;
+        }
+        
+        // delegate callback
+        
+    }
+    
+    func update&lt;#Value#&gt;(_ &lt;#value#&gt;: String) -&gt; UI&lt;#View#&gt;ViewRepresentable {
+        var viewRepresentable = self
+        viewRepresentable.&lt;#value#&gt; = &lt;#value#&gt;
+        return viewRepresentable
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EC2E474E-9086-4BC7-991D-8C9EB58E8BA6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewRepresentable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>preferencekey</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct &lt;#Name#&gt;PreferenceKey: PreferenceKey {
+    
+    static var defaultValue: &lt;#Type#&gt; = &lt;#value#&gt;
+    
+    static func reduce(value: inout &lt;#Type#&gt;, nextValue: () -&gt; &lt;#Type#&gt;) {
+        value = nextValue()
+    }
+}
+
+extension View {
+    func update&lt;#KeyName#&gt;(_ &lt;#value#&gt;: &lt;#Type#&gt;) -&gt; some View {
+        preference(key: &lt;#KeyName#&gt;PreferenceKey.self, value: &lt;#value#&gt;)
+    }
+}
+
+// in parents
+    .onPreferenceChange(&lt;#KeyName#&gt;PreferenceKey.self) { value in
+        &lt;#Code#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B71FDADA-8607-4850-9B62-542A85FEB2C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PreferenceKey</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
