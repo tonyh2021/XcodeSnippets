@@ -3,36 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>buttonstyle</string>
+	<string>weakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#Name#&gt;ButtonStyle: ButtonStyle {
-    
-    func makeBody(configuration: Configuration) -&gt; some View {
-        configuration.isPressed
-        &lt;#Code#&gt;
-    }
-}
-
-extension View {
-    func with&lt;#name#&gt;Style(_ &lt;#para#&gt;: &lt;#Type#&gt;) -&gt; some View {
-        buttonStyle(&lt;#ButtonStyle#&gt;())
-    }
-}</string>
+	<string>[weak self]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A6137A77-BEEE-43DC-9027-890695199B6E</string>
+	<string>8FCC7230-73CD-449C-8196-F794FC2EFFC8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ButtonStyle</string>
+	<string>Weak Self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

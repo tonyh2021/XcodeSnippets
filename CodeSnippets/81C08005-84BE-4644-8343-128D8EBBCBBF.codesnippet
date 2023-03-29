@@ -3,36 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>buttonstyle</string>
+	<string>test</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct &lt;#Name#&gt;ButtonStyle: ButtonStyle {
+	<string>// test_[Struct or Class]_[variable or function]_[expected result]
+func test_&lt;#Struct or Class#&gt;_&lt;#variable or function#&gt;_&lt;#expected result#&gt;() throws {
+    // Given
     
-    func makeBody(configuration: Configuration) -&gt; some View {
-        configuration.isPressed
-        &lt;#Code#&gt;
-    }
-}
-
-extension View {
-    func with&lt;#name#&gt;Style(_ &lt;#para#&gt;: &lt;#Type#&gt;) -&gt; some View {
-        buttonStyle(&lt;#ButtonStyle#&gt;())
-    }
+    // When
+    
+    // Then
+    XCTAssert(&lt;#Expression#&gt;)
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A6137A77-BEEE-43DC-9027-890695199B6E</string>
+	<string>81C08005-84BE-4644-8343-128D8EBBCBBF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ButtonStyle</string>
+	<string>UnitTest</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
