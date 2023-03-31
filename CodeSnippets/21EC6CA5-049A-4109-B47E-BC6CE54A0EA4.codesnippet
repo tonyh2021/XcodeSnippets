@@ -3,32 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>test</string>
+	<string>playgroundsupport</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// test_[Struct or Class]_[variable or function]_[expected result]
-func test_&lt;#Struct or Class#&gt;_&lt;#variable or function#&gt;_&lt;#expected result#&gt;() throws {
-    // Given
-    
-    // When
-    
-    // Then
-    XCTAssert(&lt;#Expression#&gt;)
-}</string>
+	<string>import PlaygroundSupport
+
+PlaygroundPage.current.needsIndefiniteExecution = true</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>81C08005-84BE-4644-8343-128D8EBBCBBF</string>
+	<string>21EC6CA5-049A-4109-B47E-BC6CE54A0EA4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UnitTest</string>
+	<string>PlaygroundSupport</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

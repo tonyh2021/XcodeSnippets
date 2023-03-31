@@ -3,32 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>test</string>
+	<string>timer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// test_[Struct or Class]_[variable or function]_[expected result]
-func test_&lt;#Struct or Class#&gt;_&lt;#variable or function#&gt;_&lt;#expected result#&gt;() throws {
-    // Given
-    
-    // When
-    
-    // Then
-    XCTAssert(&lt;#Expression#&gt;)
+	<string>var subscription: AnyCancellable? = Timer.publish(every: &lt;#1#&gt;, on: .main, in: .common)
+    .autoconnect()
+    .sink { completion in
+        print("Data stream completion: \(completion)")
+    } receiveValue: { (timestamp) in
+        print("Receive value: \(timestamp)")
+    }
+
+DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+    // cancel a subscription
+    subscription = nil
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>81C08005-84BE-4644-8343-128D8EBBCBBF</string>
+	<string>4A0EB2FF-7216-4917-9191-672D6CC16389</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UnitTest</string>
+	<string>Timer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
