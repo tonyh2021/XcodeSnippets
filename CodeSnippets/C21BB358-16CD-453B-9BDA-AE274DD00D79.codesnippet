@@ -11,7 +11,8 @@
 	<key>IDECodeSnippetContents</key>
 	<string>@StateObject private var vm = &lt;#Type#&gt;()
 
-class &lt;#Type#&gt;: ObservableObject {
+@MainActor
+final class &lt;#Type#&gt;: ObservableObject {
     
     init() {
         

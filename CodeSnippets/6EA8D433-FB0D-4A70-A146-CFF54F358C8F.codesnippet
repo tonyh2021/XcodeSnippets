@@ -3,42 +3,65 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-tableView</string>
+	<string>tableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: UITableViewDataSource
-    
-    func numberOfSections(in tableView: UITableView) -&gt; Int {
-        return &lt;#numberOfSections#&gt;
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
-        return &lt;#numberOfRowsInSection#&gt;
-    }
+	<string>private lazy var tableView: UITableView = {
+    let tableView = UITableView(frame: .zero, style: .plain)
+    tableView.delegate = self
+    tableView.dataSource = self
+    tableView.estimatedRowHeight = 0
+    tableView.estimatedSectionHeaderHeight = 0
+    tableView.estimatedSectionFooterHeight = 0
+    return tableView
+}()
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
-        let cellIdentifier = "CellIdentifier"
-        
-        var cell: UITableViewCell? = tableView.dequeueReusableCell(withIdentifier: cellIdentifier)
-        if cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: cellIdentifier)
-        }
-        cell!.textLabel?.text = "Example\(indexPath.row+1)"
-        return cell!
-    }
+// MARK: UITableViewDataSource
 
-    // MARK: UITableViewDelegate
+func numberOfSections(in tableView: UITableView) -&gt; Int {
+    return 1
+}
+
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+    return 100
+}
+
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+    let cell = &lt;#CellClass#&gt;.cell(withTableView: tableView)
+    return cell
+}
+
+// MARK: UITableViewDelegate
+
+func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let className: String = "Example\(indexPath.row+1)ViewController"
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let className: String = "Example\(indexPath.row+1)ViewController"
-        
-        if let cls = NSClassFromString(className) as? UIViewController.Type {
-            navigationController?.pushViewController(cls.init(), animated: true)
-        }
-    }</string>
+    if let cls = NSClassFromString(className) as? UIViewController.Type {
+        navigationController?.pushViewController(cls.init(), animated: true)
+    }
+}
+
+static func cell(withTableView tableView: UITableView) -&gt; &lt;#CellClass#&gt; {
+    let cellIdentifier = "\(String(describing: Self.self))Identifier"
+    
+    var cell: &lt;#CellClass#&gt;? = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) as? &lt;#CellClass#&gt;
+    if cell == nil {
+        cell = &lt;#CellClass#&gt;(style: .default, reuseIdentifier: cellIdentifier)
+    }
+    return cell!
+}
+
+override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
+    textLabel?.text = "Example \(Date())"
+}
+
+required init?(coder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6EA8D433-FB0D-4A70-A146-CFF54F358C8F</string>
 	<key>IDECodeSnippetLanguage</key>

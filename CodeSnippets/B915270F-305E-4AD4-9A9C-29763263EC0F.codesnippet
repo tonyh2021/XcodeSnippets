@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@Published var &lt;#name#&gt;: &lt;#Type#&gt; = &lt;#value#&gt;</string>
+	<string>@Published private(set) var &lt;#name#&gt;: &lt;#Type#&gt; = &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B915270F-305E-4AD4-9A9C-29763263EC0F</string>
 	<key>IDECodeSnippetLanguage</key>

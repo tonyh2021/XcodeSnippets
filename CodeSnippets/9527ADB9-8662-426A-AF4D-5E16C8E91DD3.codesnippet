@@ -3,23 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>playgroundsupport</string>
+	<string>sink</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import PlaygroundSupport
-
-PlaygroundPage.current.needsIndefiniteExecution = true</string>
+	<string>.sink { [weak self] completion in
+    guard let self = self else { return }
+    switch completion {
+    case .failure(let error):
+       return
+    case .finished: return
+    }
+} receiveValue: { [weak self] restult in
+    guard let self = self else { return }
+}
+.store(in: &amp;cancellables)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21EC6CA5-049A-4109-B47E-BC6CE54A0EA4</string>
+	<string>9527ADB9-8662-426A-AF4D-5E16C8E91DD3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>PlaygroundSupport</string>
+	<string>Sink</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
